@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Anismart</string>
+    <string name="title_activity_menu1">menu1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="main_title">Do you want to eat God?</string>
+
+    <string name="details_title_1"></string>
+    <string name="details_title_2"></string>
+    <string name="details_title_3"></string>
+    <string name="details_title_4"></string>
+    <string name="details_title_5"></string>
+
+    <string name="description_title">Description</string>
+    <string name="description_1"></string>
+
+
+    <string name="characters_title">Characters</string>
+    <string name="characters_1"></string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>

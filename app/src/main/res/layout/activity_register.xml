@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/touka_kirishima"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        app:srcCompat="@drawable/icon_1" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/create_profile"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:minWidth="300dp"
+        android:minHeight="40dp"
+        android:padding="5dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/email_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/create_profile"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textEmailSubject"
+        android:minWidth="300dp"
+        android:minHeight="40dp"
+        android:padding="5dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/password_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/create_profile"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName|textPassword"
+        android:minWidth="300dp"
+        android:minHeight="40dp"
+        android:padding="5dp"
+        android:visibility="visible"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/register_end_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Зарегестрироваться"
+        android:textAllCaps="false"
+        app:strokeColor="#ddadaf"
+        app:strokeWidth="1dp"
+        tools:cornerRadius="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="104dp"
+            app:srcCompat="@drawable/icon_1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/input_design"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/login_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="E-Mail"
+                android:inputType="textPersonName"
+                android:minWidth="332dp"
+                android:padding="2dp"
+                tools:ignore="TouchTargetSizeCheck"
+                tools:minHeight="32dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/input_design"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/password_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="Пароль"
+                android:inputType="textPersonName|textPassword"
+                android:minWidth="300dp"
+                android:padding="2dp"
+                android:visibility="visible"
+                tools:ignore="TouchTargetSizeCheck"
+                tools:minHeight="32dp" />
+
+            <Button
+                android:id="@+id/button_eye"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_baseline_remove_red_eye_24"
+                android:minWidth="32dp"
+                android:minHeight="32dp"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:orientation="horizontal"
+            tools:minWidth="350dp">
+
+            <TextView
+                android:id="@+id/forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Забыли пароль?"
+                android:padding="4dp"
+                tools:minWidth="80dp" />
+
+            <Button
+                android:id="@+id/sign_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:minWidth="88dp"
+                android:minHeight="48dp"
+                android:text="Войти"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:cornerRadius="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_google"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:minWidth="300dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:minWidth="340dp"
+            android:orientation="horizontal"
+            tools:minHeight="50dp">
+
+            <Button
+                android:id="@+id/create_profile_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:gravity="center"
+                android:minWidth="330dp"
+                android:minHeight="50dp"
+                android:text="Создать профиль"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_red_light"
+                app:cornerRadius="15dp"
+                app:strokeColor="#ddadaf"
+                app:strokeWidth="1dp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "984539314617",
+    "firebase_url": "https://anismart-f2ec2-default-rtdb.firebaseio.com",
+    "project_id": "anismart-f2ec2",
+    "storage_bucket": "anismart-f2ec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984539314617:android:c752b5bbf3f28728699e68",
+        "android_client_info": {
+          "package_name": "com.example.anismart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984539314617-jel938iqikilkib2ahi5ri9gbjofpsl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOd4OvFQOi3__AE_ljMB52UfBnbuNrhsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984539314617-jel938iqikilkib2ahi5ri9gbjofpsl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
